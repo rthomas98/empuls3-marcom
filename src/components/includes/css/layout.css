@@ -5,10 +5,16 @@ html {
   font-size: 1em;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
+}
+
+body {
+  height: 100%;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
+  color: #9B9B9B;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -138,16 +144,45 @@ textarea {
 }
 
 /* ==========================================================================
+   Page classes
+   ========================================================================== */
+.banner-right {
+  position: absolute;
+}
+
+/* ==========================================================================
    Helper classes
    ========================================================================== */
+
+.sub-title {
+  color: #BD1550 !important;
+}
+
+.lead {
+  color: #9B9B9B;
+}
+
+.right-grey {
+  background: url(/src/images/right-grey.png) no-repeat center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+
+
 
       /* ==========================================================================
    Bg classes
    ========================================================================== */
 
-   .bg-p {
-     background-color: #231B53;
-   }
+.bg-p {
+  background-color: #231B53;
+}
+
+.bg-pink {
+  background-color: #BD1550;
+}
 
    /* ==========================================================================
    Button classes
@@ -165,6 +200,49 @@ textarea {
 .btn-pink:hover {
   background-color: #A81548;
 }
+
+.btn-purple {
+  color: white !important;
+  text-transform: capitalize;
+  background-color: #231B53;
+  border-radius: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.btn-purple:hover {
+  background-color: #1A124A;
+}
+
+.btn-y {
+  color: white !important;
+  text-transform: capitalize;
+  background-color: #FFC259;
+  border-radius: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.btn-y:hover {
+  background-color: #E3AD50;
+}
+
+.btn-y-o {
+  color: #FFC259 !important;
+  text-transform: capitalize;
+  background-color: transparent;
+  border-radius: 50px;
+  border-color: #FFC259;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.btn-y-o:hover {
+  background-color: #E3AD50;
+  border-color: #E3AD50;
+  color: white !important;
+}
+
 
 
 /*

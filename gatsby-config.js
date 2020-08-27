@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Empuls3`,
+    description: `Empuls3 is a Dallas based Web and App Development Digital Agency. Our goal is to create pain-free marketing solutions that will help to grow your business.`,
+    author: `@empuls3`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,6 +13,16 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /images/
+        }
+      }
+    },
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -24,7 +34,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/empuls3-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

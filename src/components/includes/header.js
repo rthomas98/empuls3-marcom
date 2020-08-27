@@ -5,16 +5,16 @@ import { Navbar, Nav, NavDropdown, Form, Container } from "react-bootstrap"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <Navbar bg="white" expand="lg">
+    <Navbar bg="white" expand="lg" className="sticky-top" role="navigation">
       <Container>
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
     <Logo/> <span>empuls3</span>
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mx-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#link">Work</Nav.Link>
+      <Nav.Link href="/">Home</Nav.Link>
+      <Nav.Link href="/work">Work</Nav.Link>
       <Nav.Link href="#link">Agency</Nav.Link>
 
       <NavDropdown title="Design" id="basic-nav-dropdown">
