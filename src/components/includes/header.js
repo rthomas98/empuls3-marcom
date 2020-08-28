@@ -15,10 +15,10 @@ const Header = ({ siteTitle }) => (
     <Nav className="mx-auto">
       <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/work">Work</Nav.Link>
-      <Nav.Link href="#link">Agency</Nav.Link>
+      <Nav.Link href="/agency">Agency</Nav.Link>
 
       <NavDropdown title="Design" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Brand Identity and Strategy</NavDropdown.Item>
+        <NavDropdown.Item href="/brand-identity-and-strategy">Brand Identity and Strategy</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">UI/UX Design</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Responsive Web Design</NavDropdown.Item>
       </NavDropdown>
