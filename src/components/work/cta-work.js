@@ -15,7 +15,7 @@ const CtaWorkImg = () => {
       }
   `)
 
-  return <Img fluid={data.ctaWorkImg.childImageSharp.fluid} alt="" className="img-fluid mx-auto" style={{ width: 400 }} />
+  return <Img fluid={data.ctaWorkImg.childImageSharp.fluid} alt="" className="img-fluid mx-auto mb-4" style={{ width: 400 }} />
 }
 
 export default CtaWorkImg

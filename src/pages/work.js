@@ -16,7 +16,7 @@ const WorkPage = () => (
 
     <Container fluid className="home-banner mb-5 pt-5">
       <Row className="h-100">
-        <Col sm={12} md={12} lg={6} className="text-center">
+        <Col sm={12} md={12} lg={6} className="text-center work-grey">
           <WorkBannerImg/>
         </Col>
         <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
@@ -51,12 +51,12 @@ const WorkPage = () => (
       </Row>
     </Container>
 
-    <Container className="mb-5">
+    <Container className="mb-5 more-serv-grey">
       <Row>
         <Col className="text-center">
           <div className="my-auto col">
             <CtaWorkImg/>
-            <h2 className="text-white">We’d love to hear from you</h2>
+            <h2>We’d love to hear from you</h2>
             <p className="lead">
               Want to talk about how Empuls3 can help your business achieve its objectives online?
             </p>

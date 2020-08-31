@@ -6,10 +6,12 @@ html {
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
   height: 100%;
+  overflow-x: hidden;
 }
 
 p {
@@ -150,6 +152,103 @@ textarea {
   position: absolute;
 }
 
+.home-grey-left {
+  background: url(/home-b-grey-left.png) no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.home-grey-right-b {
+  background: url(/home-b-grey-right.png) no-repeat center right;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.agency-more {
+  background: url(/agency-more.png) no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.agency {
+  background: url(/left-grey.png) no-repeat center right;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.work-grey {
+  background: url(/work-grey.png) no-repeat top center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.more-serv-grey {
+  background: url(/more-serv-grey.png) no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.brand-grey-l {
+  background: url(/brand-grey-l.png) no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.brand-grey-r {
+  background: url(/brand-grey-r.png) no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.ui-grey {
+  background: url(/ui-grey.png) no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.purple-right {
+  background: url(/purple-left.png) no-repeat center right;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.p-shape {
+  background: url(/p-shape.png) no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.pink-shape {
+  background: url(/pink-shape.png) no-repeat center left;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -162,14 +261,16 @@ textarea {
   color: #9B9B9B;
 }
 
-.right-grey {
-  background: url(/src/images/right-grey.png) no-repeat center center;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
+.txt-overly {
+  position: relative;
 }
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
       /* ==========================================================================

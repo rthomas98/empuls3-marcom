@@ -19,9 +19,9 @@ const IndexPage = () => (
 
     <Header/>
 
-    <Container fluid className="home-banner mb-5">
+    <Container fluid className="home-banner mb-5 p-0">
       <Row className="h-100">
-        <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
+        <Col sm={12} md={12} lg={6} className="d-flex justify-content-center home-grey-left">
           <div className="my-auto col text-center p-5">
             <p className="lead sub-title">
               strategy. creativity. technology. analytics.
@@ -40,15 +40,15 @@ const IndexPage = () => (
             </p>
           </div>
         </Col>
-        <Col sm={12} md={12} lg={6} className="text-center right-grey">
+        <Col sm={12} md={12} lg={6} className="text-center right-grey home-grey-right-b">
           <BannerImg/>
         </Col>
       </Row>
     </Container>
 
-    <Container className="mb-5">
+    <Container className="mb-5 ">
       <Row className="mb-5">
-        <Col sm={12} md={12} lg={6}>
+        <Col sm={12} md={12} lg={6} className="agency-more">
             <PeopleImg/>
         </Col>
         <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
@@ -76,7 +76,7 @@ const IndexPage = () => (
           <DigiImg/>
         </Col>
       </Row>
-      <Row>
+      <Row className="more-serv-grey">
         <Col sm={12} md={12} lg={4} className="text-center">
           <WebHomeImg/>
           <h3><a href="#">Website Design &amp; Development</a></h3>
@@ -100,7 +100,7 @@ const IndexPage = () => (
         <Col sm={12} md={12} lg={4}>
           <TestimonialsImg/>
         </Col>
-        <Col sm={12} md={12} lg={8} className="bg-p p-5 d-flex justify-content-center">
+        <Col sm={12} md={12} lg={8} className="bg-p p-5 d-flex justify-content-center purple-right">
           <div className="my-auto col text-center">
             <h2 className="text-white">Our Testimonials</h2>
           </div>

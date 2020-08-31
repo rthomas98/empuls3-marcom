@@ -19,8 +19,8 @@ const Header = ({ siteTitle }) => (
 
       <NavDropdown title="Design" id="basic-nav-dropdown">
         <NavDropdown.Item href="/brand-identity-and-strategy">Brand Identity and Strategy</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">UI/UX Design</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Responsive Web Design</NavDropdown.Item>
+        <NavDropdown.Item href="ui-ux-design">UI/UX Design</NavDropdown.Item>
+        <NavDropdown.Item href="/responsive-web-design">Responsive Web Design</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Development" id="basic-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Web Development</NavDropdown.Item>

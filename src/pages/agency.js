@@ -19,32 +19,35 @@ const AgencyPage = () => (
     <SEO title="Who We Are" />
 
     <Header/>
+<div className="agency">
+  <Container>
+    <Row className="mb-5">
+      <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
+        <div className="my-auto col text-center">
+          <AgencyBanner/>
+          <p className="lead sub-title">
+            strategy. creativity. technology. analytics.
+          </p>
+          <h1>
+            Our Agency
+          </h1>
+          <p className="lead">
+            It’s Not About the Individuals, It’s About the Culture.
+          </p>
 
+          <p className="mt-5">
+            <a href="#" className="btn btn-y btn-lg pl-lg-5 pr-lg-5 mr-3">more about us</a>
+            <a href="#" className="btn btn-y-o btn-lg pl-lg-5 pr-lg-5">lets get started</a>
+          </p>
+        </div>
+      </Col>
+      <Col sm={12} md={12} lg={6} >
+        <AgencyBannerTwo/>
+      </Col>
+    </Row>
+  </Container>
+</div>
     <Container className="pt-5">
-      <Row className="mb-5">
-        <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
-          <div className="my-auto col text-center">
-            <AgencyBanner/>
-            <p className="lead sub-title">
-              strategy. creativity. technology. analytics.
-            </p>
-            <h1>
-              Our Agency
-            </h1>
-            <p className="lead">
-              It’s Not About the Individuals, It’s About the Culture.
-            </p>
-
-            <p className="mt-5">
-              <a href="#" className="btn btn-y btn-lg pl-lg-5 pr-lg-5 mr-3">more about us</a>
-              <a href="#" className="btn btn-y-o btn-lg pl-lg-5 pr-lg-5">lets get started</a>
-            </p>
-          </div>
-        </Col>
-        <Col sm={12} md={12} lg={6} >
-          <AgencyBannerTwo/>
-        </Col>
-      </Row>
       <Row className="mb-5">
         <Col className="text-center">
           <h2>

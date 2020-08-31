@@ -15,12 +15,12 @@ const BrandPage = () => (
     <SEO title="Brand Identity and Strategy" />
     <Header/>
 
-    <Container fluid className="pt-5">
+    <Container fluid>
         <Row>
-            <Col sm={12} md={12} lg={6}>
+            <Col sm={12} md={12} lg={6} className="brand-grey-l mb-5 mb-md-5 mb-lg-0 ">
                 <BrandBanner/>
             </Col>
-            <Col sm={12} md={12} lg={6} className="d-flex justify-content-center">
+            <Col sm={12} md={12} lg={6} className="d-flex justify-content-center brand-grey-r">
                 <div className="my-auto col text-center p-lg-5">
                     <p className="lead sub-title">
                         strategy. creativity. technology. analytics.
@@ -44,7 +44,7 @@ const BrandPage = () => (
       <div className="bg-p pt-5 mb-5 pb-5">
           <Container>
               <Row className="">
-                  <Col sm={12} md={12} lg={7} className="d-flex justify-content-center">
+                  <Col sm={12} md={12} lg={7} className="d-flex justify-content-center p-shape">
                       <div className="my-auto col">
                           <h3 className="txt-y">
                               We build brands that cannot be ignored.
