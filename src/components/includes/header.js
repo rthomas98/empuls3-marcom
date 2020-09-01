@@ -23,9 +23,9 @@ const Header = ({ siteTitle }) => (
         <NavDropdown.Item href="/responsive-web-design">Responsive Web Design</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Development" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Web Development</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">WordPress Development</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Mobile Development</NavDropdown.Item>
+        <NavDropdown.Item href="/web-development">Web Development</NavDropdown.Item>
+        <NavDropdown.Item href="/wordpress-development">WordPress Development</NavDropdown.Item>
+        <NavDropdown.Item href="/mobile-development">Mobile Development</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Marketing" id="basic-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Marketing Overview</NavDropdown.Item>

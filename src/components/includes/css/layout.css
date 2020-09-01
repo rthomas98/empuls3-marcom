@@ -248,6 +248,37 @@ textarea {
   background-size: contain;
 }
 
+.purple-dots {
+  background: url(/purple-dots.png) no-repeat center right;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.grey-long {
+  background: url(/long-grey.png) no-repeat center right;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.grey-right {
+  background: url(/grey-right.png) no-repeat center right;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.yellow-left {
+  background: url(/yellow-left.png) no-repeat center left;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
 
 /* ==========================================================================
    Helper classes
@@ -273,6 +304,8 @@ textarea {
 }
 
 
+
+
       /* ==========================================================================
    Bg classes
    ========================================================================== */
@@ -283,6 +316,14 @@ textarea {
 
 .bg-pink {
   background-color: #BD1550;
+}
+
+.bg-grey {
+  background-color: #F8F8F8;
+}
+
+.bg-yellow {
+  background-color: #FFC259;
 }
 
 .txt-y {
@@ -321,6 +362,22 @@ textarea {
 
 .btn-purple:hover {
   background-color: #1A124A;
+}
+
+.btn-purple-o {
+  color: #231B53 !important;
+  text-transform: capitalize;
+  background-color: transparent;
+  border-radius: 50px;
+  border-color: #231B53;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.btn-purple-o:hover {
+  background-color: #1A124A;
+  border-color: #1A124A;
+  color: white !important;
 }
 
 .btn-y {
