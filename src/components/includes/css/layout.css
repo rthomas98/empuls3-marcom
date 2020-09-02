@@ -280,6 +280,14 @@ textarea {
   background-size: contain;
 }
 
+.black-dots {
+  background: url(/black-dots.png) no-repeat center left;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -325,6 +333,11 @@ textarea {
 .bg-yellow {
   background-color: #FFC259;
 }
+
+.bg-black {
+  background-color: #212529;
+}
+
 
 .txt-y {
   color: #FFC259;

@@ -28,9 +28,9 @@ const Header = ({ siteTitle }) => (
         <NavDropdown.Item href="/mobile-development">Mobile Development</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Marketing" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Marketing Overview</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Analytics and Conversion Tracking</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Email Marketing</NavDropdown.Item>
+        <NavDropdown.Item href="/marketing-overview">Marketing Overview</NavDropdown.Item>
+        <NavDropdown.Item href="/analytics-and-conversion-tracking">Analytics and Conversion Tracking</NavDropdown.Item>
+        <NavDropdown.Item href="/email-marketing">Email Marketing</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Pay Per Click Marketing</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.4">Search Engine Optimization</NavDropdown.Item>
