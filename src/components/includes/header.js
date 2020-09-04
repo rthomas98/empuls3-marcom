@@ -32,11 +32,11 @@ const Header = ({ siteTitle }) => (
         <NavDropdown.Item href="/analytics-and-conversion-tracking">Analytics and Conversion Tracking</NavDropdown.Item>
         <NavDropdown.Item href="/email-marketing">Email Marketing</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Pay Per Click Marketing</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">Search Engine Optimization</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">Social Media Marketing</NavDropdown.Item>
+        <NavDropdown.Item href="/pay-per-click-management">Pay Per Click Management</NavDropdown.Item>
+        <NavDropdown.Item href="/search-engine-optimization">Search Engine Optimization</NavDropdown.Item>
+        <NavDropdown.Item href="/social-media-marketing">Social Media Marketing</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="#link">Contact Us</Nav.Link>
+      <Nav.Link href="/contact">Contact Us</Nav.Link>
     </Nav>
     <Form inline>
       <a role="button" className="btn btn-pink">get in touch</a>

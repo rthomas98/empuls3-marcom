@@ -15,7 +15,10 @@ import PpcHomeImg from "../components/home/ppc-home"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Full-Service Creative Agency" />
+    <SEO
+      title="Digital Marketing & Web Development Agency in Dallas, Texas"
+      description="Hello"
+    />
 
     <Header/>
 
@@ -27,16 +30,16 @@ const IndexPage = () => (
               strategy. creativity. technology. analytics.
             </p>
             <h1>
-              WE’RE A MULTI-FACETED
-              FULL-SERVICE CREATIVE AGENCY.
+              We’re A Multi-Faceted
+              Full-Service Digital Marketing Agency.
             </h1>
             <p className="lead">
               The way people communicate has changed. Your marketing strategy should too.
             </p>
 
             <p>
-              <a href="#" className="btn btn-y btn-lg pl-lg-5 pr-lg-5 mr-3">about us</a>
-              <a href="#" className="btn btn-y-o btn-lg pl-lg-5 pr-lg-5">our work</a>
+              <a href="/agency" className="btn btn-y btn-lg pl-lg-5 pr-lg-5 mr-3">about us</a>
+              <a href="/work" className="btn btn-y-o btn-lg pl-lg-5 pr-lg-5">our work</a>
             </p>
           </div>
         </Col>
@@ -57,8 +60,8 @@ const IndexPage = () => (
               <p>
                 Empuls3 is a Dallas based Web and App Development Digital Agency. Our goal is to create pain-free marketing solutions that will help to grow your business.
               </p>
-            <p>
-              <a href="/agency" className="btn btn-pink">about us</a>
+            <p className="mt-5">
+              <a href="/agency" className="btn btn-pink pl-lg-5 pr-lg-5">about us</a>
             </p>
           </div>
         </Col>
@@ -117,7 +120,7 @@ const IndexPage = () => (
           </p>
 
           <p className="text-center">
-            <a href="/agency" className="btn btn-pink mt-5">view more of our work</a>
+            <a href="/work" className="btn btn-pink mt-5">view more of our work</a>
           </p>
         </Col>
       </Row>

@@ -15,7 +15,7 @@ const WebHomeImg = () => {
       }
   `)
 
-  return <Img fluid={data.webHomeImg.childImageSharp.fluid} alt="" className="img-fluid mb-4 rounded" style={{ width: 370 }} />
+  return <Img fluid={data.webHomeImg.childImageSharp.fluid} alt="a women working at her desk" className="img-fluid mb-4 rounded" style={{ width: 370 }} />
 }
 
 export default WebHomeImg

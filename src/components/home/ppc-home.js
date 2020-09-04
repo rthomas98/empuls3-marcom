@@ -15,7 +15,7 @@ const PpcHomeImg = () => {
       }
   `)
 
-  return <Img fluid={data.ppcHomeImg.childImageSharp.fluid} alt="" className="img-fluid mb-4 rounded" style={{ width: 370 }} />
+  return <Img fluid={data.ppcHomeImg.childImageSharp.fluid} alt="marketing group in a meeting" className="img-fluid mb-4 rounded" style={{ width: 370 }} />
 }
 
 export default PpcHomeImg

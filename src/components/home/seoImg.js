@@ -15,7 +15,7 @@ const SeoHomeImg = () => {
       }
   `)
 
-  return <Img fluid={data.seoHomeImg.childImageSharp.fluid} alt="" className="img-fluid mb-4 rounded" style={{ width: 370 }} />
+  return <Img fluid={data.seoHomeImg.childImageSharp.fluid} alt="seo team going over some notes for a project" className="img-fluid mb-4 rounded" style={{ width: 370 }} />
 }
 
 export default SeoHomeImg

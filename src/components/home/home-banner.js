@@ -15,7 +15,7 @@ const BannerImg = () => {
       }
   `)
 
-  return <Img fluid={data.bannerImg.childImageSharp.fluid} alt="" className="img-fluid mx-auto" style={{ width: 600 }} />
+  return <Img fluid={data.bannerImg.childImageSharp.fluid} alt="team standing and a guy waving" className="img-fluid mx-auto" style={{ width: 600 }} />
 }
 
 export default BannerImg

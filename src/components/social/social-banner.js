@@ -2,12 +2,12 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const DigiImg = () => {
+const SocialBanner = () => {
   const data = useStaticQuery(graphql`
       query {
-          digiImg: file(relativePath: { eq: "dm-img.png" }) {
+          socialBanner: file(relativePath: { eq: "social-banner.png" }) {
               childImageSharp {
-                  fluid(maxWidth: 1170) {
+                  fluid(maxWidth: 719) {
                       ...GatsbyImageSharpFluid
                   }
               }
@@ -15,7 +15,7 @@ const DigiImg = () => {
       }
   `)
 
-  return <Img fluid={data.digiImg.childImageSharp.fluid} alt="team going over states in a meeting" className="img-fluid" />
+  return <Img fluid={data.socialBanner.childImageSharp.fluid} alt="" className="img-fluid mx-auto" style={{ width: 719 }} />
 }
 
-export default DigiImg
+export default SocialBanner

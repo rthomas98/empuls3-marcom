@@ -15,7 +15,7 @@ const PeopleImg = () => {
       }
   `)
 
-  return <Img fluid={data.peopleImg.childImageSharp.fluid} alt="" className="img-fluid" style={{ width: 676 }} />
+  return <Img fluid={data.peopleImg.childImageSharp.fluid} alt="members of the marketing team working" className="img-fluid" style={{ width: 676 }} />
 }
 
 export default PeopleImg

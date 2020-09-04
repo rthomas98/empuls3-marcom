@@ -2,12 +2,12 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const DigiImg = () => {
+const PpcBanner = () => {
   const data = useStaticQuery(graphql`
       query {
-          digiImg: file(relativePath: { eq: "dm-img.png" }) {
+          ppcBanner: file(relativePath: { eq: "ppc-banner.png" }) {
               childImageSharp {
-                  fluid(maxWidth: 1170) {
+                  fluid(maxWidth: 1016) {
                       ...GatsbyImageSharpFluid
                   }
               }
@@ -15,7 +15,7 @@ const DigiImg = () => {
       }
   `)
 
-  return <Img fluid={data.digiImg.childImageSharp.fluid} alt="team going over states in a meeting" className="img-fluid" />
+  return <Img fluid={data.ppcBanner.childImageSharp.fluid} alt="" className="img-fluid mx-auto" />
 }
 
-export default DigiImg
+export default PpcBanner
